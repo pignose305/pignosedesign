@@ -1,7 +1,7 @@
 /* for the always-visible main menu options */
 .Links li {
 	float: left;
-	width: 195px;
+	width: 225px;
 	border-right: 1px solid #FFF;
 	font-weight: bold;
 	font-size: .9em;
@@ -9,7 +9,7 @@
 	list-style: none;
 }
 .Links li:last-child {
-	width: 200px;
+	width: 230px;
 	border-right-width: 0;
 }
 
@@ -35,7 +35,7 @@
 }
 .Links div a {
 	display: block;
-	width: 192px;
+	width: 222px;
 	margin-top: 2px;
 	padding-left: 3px;
 	background-color: #EC7063;
