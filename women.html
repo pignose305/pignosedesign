@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="desktop.css">
+  <script src="rotate.js"></script>
+  <script src="menus.js"></script>
+  <style>
+  p {
+    color: tomato;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  div {
+    text-align: center;
+  }
+  </style>
+</head>
+<body background="./background.jpg">
+<body onload="startRotation()">
+  <div><h1 style="color:#B03A2E;font-family: Arial, Helvetica, sans-serif;">Welcome to Pignose Design Center :<br>Finding your style!</h1></div>
+  <div><p>This is a new startup company for personal cloth design. We are going to customize people's needs for their own clothes. Cloths represent people's tastes and spirits.</p>
+  <p>It's important to find out one's own style. That's the main spirit for the Pigno Design Center. Find your style and show your spirit.<br><br></p></div>
+  <nav onmouseout="hide()">
+  <ul class="Links">
+    <li><a href="pignose.html" onmouseover="show('m1')">Home</a></li>
+    <li><a href="#" onmouseover="show('m2')">Products+Services</a>
+    <div id="m2" onmouseover="show('m2')">
+     <a href="catalog.html">Product Catalog</a>
+    <a href="product.html">Featured Products</a>
+    <a href="women.html">Women</a>
+    <a href="men.html">Men</a>
+    <li><a href="pignose.html" onmouseover="show('m3')">About Us</a></li>
+    <li><a href="pignose.html" onmouseover="show('m4')">Contact Us</a></li>
+    <li><a href="pignose.html" onmouseover="show('m5')">Site Map</a></li>
+    <li><a href="registration.html" onmouseover="show('m5')">Registration</a></li>
+  </ul>
+  </nav>
+  <br><br>
+ <div><h3 style="color:black;font-family: Arial;">Product List of Women</h3></div>
+ <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin-left:auto;margin-right:auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+
+<thead>
+  <tr>
+    <th class="tg-baqh"><span style="font-weight:bold">Product Image</span></th>
+    <th class="tg-baqh"><span style="font-weight:bold">Product Name</span></th>
+    <th class="tg-baqh"><span style="font-weight:bold">Price</span></th>
+    <th class="tg-baqh"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh"><img src="images/item1.jpg" alt="Image" width="250" height="250"><br></td>
+    <td class="tg-baqh">SUMMER DRESS</td>
+    <td class="tg-baqh">$29.99</td>
+    <td class="tg-baqh"><button type="submit" value="Add to Cart">Add to Cart</button></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><img src="images/item2.jpg" alt="Image" width="250" height="250"></td>
+    <td class="tg-baqh">BASIC TOP</td>
+    <td class="tg-baqh">$12.99</td>
+   <td class="tg-baqh"><button type="submit" value="Add to Cart">Add to Cart</button></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><img src="images/item3.jpg" alt="Image" width="250" height="250"></td>
+    <td class="tg-baqh">LINEN PANTS</td>
+    <td class="tg-baqh">$34.99</td>
+   <td class="tg-baqh"><button type="submit" value="Add to Cart">Add to Cart</button></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><img src="images/item4.jpg" alt="Image" width="250" height="187"></td>
+    <td class="tg-baqh">BOOTS</td>
+    <td class="tg-baqh">$64.99</td>
+   <td class="tg-baqh"><button type="submit" value="Add to Cart">Add to Cart</button></td>
+  </tr>
+</tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+/* for the always-visible main menu options */
+.Links li {
+	float: left;
+	width: 195px;
+	border-right: 1px solid #FFF;
+	font-weight: bold;
+	font-size: .9em;
+	text-align: center;
+	list-style: none;
+}
+.Links li:last-child {
+	width: 200px;
+	border-right-width: 0;
+}
+
+/* for all links for all menu options */
+.Links li a {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	background-color: #F5B7B1;
+	color: #FFF;
+	text-decoration: none;
+}
+.Links li a:hover {
+	background-color: #B03A2E;
+	color: #FFF;
+}
+
+/* for the dropdown menu options */
+.Links div {
+	position: absolute;
+	background-color: #F5B7B1;
+	visibility: hidden;
+}
+.Links div a {
+	display: block;
+	width: 192px;
+	margin-top: 2px;
+	padding-left: 3px;
+	background-color: #EC7063;
+	color: #F5B7B1;
+	text-align: left;
+}
